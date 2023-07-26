@@ -1,0 +1,50 @@
+.home-section {
+  padding: 5rem 1rem;
+}
+
+.trade-stats-from {
+  width: 25%;
+  min-width: 300px;
+  margin: auto;
+}
+
+.trade-stats {
+  margin: 2rem auto;
+  width: 60%;
+  text-align: center;
+}
+
+.trade-stats-card {
+  display: flex;
+  justify-content: center;
+}
+
+.trade-stats-card .ant-card {
+  width: 20%;
+  margin: 0.8rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.trade-stats-card .ant-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.color-primary {
+  color: #1677ff;
+}
+
+.ant-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1300px) {
+  .trade-stats {
+    width: 100%;
+  }
+}
