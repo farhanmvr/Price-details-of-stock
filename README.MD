@@ -3,9 +3,12 @@
 2. run `yarn start`
 
 # Setting up server
-1. Add env variables 
-    POLYGON_BASE_URL='https://api.polygon.io/v1'
-    API_KEY=<Your API Key>
+1. Add env variables
+```
+POLYGON_BASE_URL='https://api.polygon.io/v1'
+API_KEY=<Your API Key>
+```
+
 2. install packages `yarn install`
 3. start server -> `yarn start`
 
